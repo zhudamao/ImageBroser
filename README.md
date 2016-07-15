@@ -18,4 +18,4 @@ ImageBroser
 - (NSURL *)imageUrlAtIndex:(NSInteger)index broser:(ImageBroserController *)broser;// 图片链接地址
 - (CGRect) theImageViewFrameBaseOnWindowAtIndex:(NSInteger)index broser:(ImageBroserController *)broser;//图片的尺寸，相对于window
 ```
-![](https://github.com/zhudamao/ImageBroser/sample.gif)  
+![](https://github.com/zhudamao/ImageBroser/blob/master/sample.gif)  
