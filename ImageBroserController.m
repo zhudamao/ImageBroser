@@ -72,18 +72,6 @@ static const CGFloat kMinImageScale = 1.0f;
         [self addMultipleGesture];
     }];
     
-    //    __block UIImageView * _imageViewInTheBlock = __imageView;
-    //    __block MHFacebookImageViewerCell * _justMeInsideTheBlock = self;
-    //    __block UIScrollView * _scrollViewInsideBlock = __scrollView;
-    
-    //    [__imageView setImageWithURLRequest:[NSURLRequest requestWithURL:imageURL] placeholderImage:defaultImage success:^(NSURLRequest *request, NSHTTPURLResponse *response, UIImage *image) {
-    //        [_scrollViewInsideBlock setZoomScale:1.0f animated:YES];
-    //        [_imageViewInTheBlock setImage:image];
-    //        _imageViewInTheBlock.frame = [_justMeInsideTheBlock centerFrameFromImage:_imageViewInTheBlock.image];
-    //
-    //    } failure:^(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error) {
-    //        NSLog(@"Image From URL Not loaded");
-    //    }];
 }
 
 - (CGRect) centerFrameFromImage:(UIImage*) image {

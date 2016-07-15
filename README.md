@@ -14,9 +14,8 @@ ImageBroser
 ###注意点
 提供一种自己实现图片浏览的思路,必须实现三种方法
 ```objc 
-
 - (NSInteger)numImagesForBroser:(ImageBroserController *)broser; // 图片个数
 - (NSURL *)imageUrlAtIndex:(NSInteger)index broser:(ImageBroserController *)broser;// 图片链接地址
 - (CGRect) theImageViewFrameBaseOnWindowAtIndex:(NSInteger)index broser:(ImageBroserController *)broser;//图片的尺寸，相对于window
-
+```
 ![](https://github.com/zhudamao/ImageBroser/sample.gif)  
